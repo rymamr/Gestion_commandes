@@ -5,7 +5,7 @@ import {
   KeyboardAvoidingView, Platform, ScrollView,
 } from 'react-native';
 import { router } from 'expo-router';
-import { useAuth } from '../../context/auth';
+import { useAuth } from '../../context/auth'; 
  
 const colors = {
   background: "#cfcfcf",
