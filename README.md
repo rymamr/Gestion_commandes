@@ -30,8 +30,7 @@ Elle est utilisée principalement dans un contexte commercial (exemple : entrepr
 
 - Node.js (https://nodejs.org)
 - Expo CLI (`npm install -g expo-cli`)
-- Un smartphone avec l’application **Expo Go**
-- Ou un émulateur Android/iOS
+- Un smartphone avec l’application **Expo Go** Ou un émulateur Android/iOS
 - Connexion au backend PHP
 
 ## ▶️ Installation
