@@ -28,9 +28,10 @@ Elle est utilisée principalement dans un contexte commercial (exemple : entrepr
 
 ## 🛠️ Prérequis
 
-- Node.js
-- Expo CLI
-- Un émulateur Android/iOS ou un appareil mobile réel
+- Node.js (https://nodejs.org)
+- Expo CLI (`npm install -g expo-cli`)
+- Un smartphone avec l’application **Expo Go**
+- Ou un émulateur Android/iOS
 - Connexion au backend PHP
 
 ## ▶️ Installation
