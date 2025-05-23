@@ -52,10 +52,10 @@ Cette application mobile communique avec une API développée en PHP :
 Dans les fichiers source, configurez l’URL vers votre backend PHP (ex : `clients.tsx`, `produits.tsx`) :
 
 ```js
-const API_URL = "http://192.168.1.100/gestion_commandes_api/";
+const API_URL = "http://192.168.1.13/gestion_commandes_api";
 ```
 
-> Remplacez `192.168.1.100` par l’adresse IP locale de votre PC
+> Remplacez `192.168.1.13` par l’adresse IP locale de votre PC
 
 ---
 ## 🗃 Script SQL
