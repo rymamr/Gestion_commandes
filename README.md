@@ -58,6 +58,13 @@ const API_URL = "http://192.168.1.100/gestion_commandes_api/";
 > Remplacez `192.168.1.100` par l’adresse IP locale de votre PC
 
 ---
+## 🗃 Script SQL
+
+Le script de création de la base de données est disponible ici :  
+🔗 [tirage_au_sort.sql](https://github.com/rymamr/gestion_commandes_api/blob/main/gestion_commandes.sql)
+
+Vous pouvez l’importer directement dans votre outil de gestion de base de données
+
 
 🧑‍💻 Auteur : [rymamr](https://github.com/rymamr)
 
