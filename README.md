@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+📱📦 Projet : Application Mobile de Gestion des Commandes & proformmas
+=========================================================================
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ce projet est divisé en deux parties distinctes hébergées sur GitHub :
 
-## Get started
+1. **Frontend (React Native)** : https://github.com/rymamr/Gestion_commandes
+2. **Backend API (PHP)** : https://github.com/rymamr/gestion_commandes_api
 
-1. Install dependencies
+Chacune des parties contient son propre guide d'installation et de configuration.
 
-   ```bash
-   npm install
-   ```
+========================================================
 
-2. Start the app
+🟦 README - Frontend React Native (https://github.com/rymamr/Gestion_commandes)
+-------------------------------------------------------------------------------
 
-   ```bash
-    npx expo start
-   ```
+# 📱 Application Mobile - Gestion des Commandes
 
-In the output, you'll find options to open the app in a
+Cette application mobile, développée avec **React Native**, permet de gérer les produits, les clients, les proformas et les commandes.  
+Elle est utilisée principalement dans un contexte commercial (exemple : entreprise MS Contact).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Fonctionnalités
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- 🔐 Connexion utilisateur
+- 📦 Gestion des produits
+- 👥 Gestion des clients
+- 🧾 Création de proformas
+- 📋 Création des commandes
 
-## Get a fresh project
+## 🛠️ Prérequis
 
-When you're ready, run:
+- Node.js
+- Expo CLI
+- Un émulateur Android/iOS ou un appareil mobile réel
+- Connexion au backend PHP
+
+## ▶️ Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/rymamr/Gestion_commandes.git
+cd Gestion_commandes
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🔗 Connexion à l’API PHP
 
-## Learn more
+Cette application mobile communique avec une API développée en PHP :  
+👉 [gestion_commandes_api (backend)](https://github.com/rymamr/gestion_commandes_api)
 
-To learn more about developing your project with Expo, look at the following resources:
+### 🔧 Configuration de l’URL de l’API
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Dans les fichiers source, configurez l’URL vers votre backend PHP (ex : `clients.tsx`, `produits.tsx`) :
 
-## Join the community
+```js
+const API_URL = "http://192.168.1.100/gestion_commandes_api/";
+```
 
-Join our community of developers creating universal apps.
+> Remplacez `192.168.1.100` par l’adresse IP locale de votre PC
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+🧑‍💻 Auteur : [rymamr](https://github.com/rymamr)
+
+========================================================
